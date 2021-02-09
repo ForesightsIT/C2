@@ -20,36 +20,6 @@ Below is the formal diagram related to the visualization of the project's main s
 ![Project-key-steps](images/999.png?raw=true)
 
 
-## Key Steps
-
-### MLSecOps Prepping & Authentication:
-Mainly creating a Service Principal account and associating it with a specific workspace.
-
-### Automating an ML Experiment:
-Creating an experiment using Automated ML, configuring a compute cluster, and using it to run an experiment.
-
-
-### Deploying the Best Model:
-Deploying the AutoML run's Best Model for interacting with the HTTP API service and or the model [over POST requests].
-
-
-### Logs Enabling:
-Retrieving logs by enabling Application Insights at deploy time [with a check-box, or later by runing a code].
-
-
-### Documenting Swagger:
-Consuming the deployed model using the [OpenAPI] Swagger JSON file to interact with the trained model.
-
-
-### Consuming Model Endpoints:
-Consuming the deployed model using the endpoint's scoring_uri and its key that was generated post deployment.
-
-
-
-### Pipeline Creating and Publishing:
-Updating a Jupyter Notebook with already created [same AutoMl's] keys, URI, dataset, cluster, and model names.
-
-
 
 ## Areas of Improvement
 
@@ -72,7 +42,7 @@ Pending standout suggestions that were attempted include:
 - Exporting the model for [supportting ONNX](https://docs.microsoft.com/en-us/azure/machine-learning/concept-onnx).
 
 
-# 1st MLSecOps Project (C2) - Low Level Specification
+# 1st MLSecOps Project (C2) - Low Level Specification (Key Steps)
 
 
 ## Screencast Recording Documentation
@@ -92,7 +62,12 @@ Below are the required screenshots to demonstrate [along with the above screenca
 
 
 
+
 ## Part I: Machine Learning Ops Principles
+
+### Key Setp #1: MLSecOps Prepping & Authentication:
+Mainly creating a Service Principal account and associating it with a specific workspace.
+
 
 ##### Role Owner authorization to perform roleAssignmentswrite over scope - NO ERROR OR TRACEBACK
  !az ml workspace share -w workspace1st -g dsvm1st --user --- --role owner
@@ -106,10 +81,14 @@ Udacity no authorization to perform roleAssignmentswrite over scope
 ## Part II: Deploy model in Azure ML Studio
 
 
-### Create a new AutoML run
+### Key Setp #2: Automating an ML Experiment:
+Creating an experiment using Automated ML, configuring a compute cluster, and using it to run an experiment.
 
 
-#### The submission includes screenshots of:
+#### Create a new AutoML run
+
+
+##### The submission includes screenshots of:
 
 - “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available:
 
@@ -122,17 +101,20 @@ Udacity no authorization to perform roleAssignmentswrite over scope
 ![Auto ML experiment is shown as completed](images/203.png?raw=true)
 
 
-
-#### Screeshot of the Auto ML Best Model after experiment completes:
+##### Screeshot of the Auto ML Best Model after experiment completes:
 
 ![Auto ML Best Model after experiment completes](images/205.png?raw=true)
  
 
 
-### Deploy a model and consume a model endpoint via an HTTP API
+### Key Setp #3: Deploying the Best Model:
+Deploying the AutoML run's Best Model for interacting with the HTTP API service and or the model [over POST requests].
 
 
-#### The submission includes screenshots of:
+#### Deploy a model and consume a model endpoint via an HTTP API
+
+
+##### The submission includes screenshots of:
 
 
 - Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”:
@@ -140,17 +122,29 @@ Udacity no authorization to perform roleAssignmentswrite over scope
 ![1st-AutoML-003b Endpoints section in Azure ML Studio, showing that 'Application Insights enabled' says 'true'](images/301.png?raw=true)
  
 
+
+### Key Setp #4: Logs Enabling:
+Retrieving logs by enabling Application Insights at deploy time [with a check-box, or later by runing a code].
+
+
 - Logging is enabled by running the provided logs.py script:
 
 ![1st-AutoML-004a Logging is enabled by running the provided logs.py script](images/303.png?raw=true)
 
  
 
+### Key Setp #5: Documenting Swagger:
+Consuming the deployed model using the [OpenAPI] Swagger JSON file to interact with the trained model.
+
 
 - Swagger runs on localhost showing the HTTP API methods and responses for the model:
 
 ![1st-AutoML-005x Swagger runs on localhost showing the HTTP API methods and responses for the model](images/401.png?raw=true)
  
+
+
+### Key Setp #6: Consuming Model Endpoints:
+Consuming the deployed model using the endpoint's scoring_uri and its key that was generated post deployment.
 
 
 - endpoint.py script runs against the API producing JSON output from the model:
@@ -165,6 +159,10 @@ Udacity no authorization to perform roleAssignmentswrite over scope
 
 
 ## Part III: Publish an ML Pipeline
+
+
+### Key Setp #7: Pipeline Creating and Publishing:
+Updating a Jupyter Notebook with already created [same AutoMl's] keys, URI, dataset, cluster, and model names.
 
 
 ### Create and publish a pipeline
@@ -190,7 +188,6 @@ Udacity no authorization to perform roleAssignmentswrite over scope
 
 ![Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE](images/888.png?raw=true)
  
-
 
 
 
