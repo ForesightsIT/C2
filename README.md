@@ -242,9 +242,10 @@ N/A
 
 ###### Role Owner authorization to perform roleAssignmentswrite over scope - NO ERROR OR TRACEBACK
  !az ml workspace share -w workspace1st -g dsvm1st --user --- --role owner
-![Udacity no authorization to perform roleAssignmentswrite over scope](images/101.png?raw=true)
 ![1st-AutoML-001 Role Owner - NO ERROR OR TRACEBACK - local](images/101.png?raw=true)
 ![1st-AutoML-001 Role Owner - NO ERROR OR TRACEBACK @ already exists](images/102.png?raw=true)
+Udacity no authorization to perform roleAssignmentswrite over scope
+![Udacity no authorization to perform roleAssignmentswrite over scope](images/107.png?raw=true)
 
 
 
@@ -325,20 +326,20 @@ N/A
 
 ####### The pipeline section of Azure ML studio, showing that the pipeline has been created:
 
-![Udacity - pipeline section of Azure ML studio, showing that the pipeline has been created](images/Udacity - pipeline section of Azure ML studio, showing that the pipeline has been created.png?raw=true)
+![Udacity - pipeline section of Azure ML studio, showing that the pipeline has been created](images/801.png?raw=true)
 
 
 
 ####### The Bankmarketing dataset with the AutoML module:
 
-![Udacity Registered Datasets in ML Studio shows Bankmarketing dataset available](images/Udacity Registered Datasets in ML Studio shows Bankmarketing dataset available.png?raw=true)
- 
+![Udacity Registered Datasets in ML Studio shows Bankmarketing dataset available](images/808.png?raw=true)
+ Registered Datasets in ML Studio shows [Bankmarketing] dataset available
 
 
 
 ####### The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE:
 
-![Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE](images/Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE.png?raw=true)
+![Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE](images/888.png?raw=true)
  
 
 
@@ -364,13 +365,12 @@ N/A
 
 
 ####### ML studio showing the pipeline endpoint as Active:
+![ML studio showing the pipeline endpoint as Active](images/907.png?raw=true)
  
 
 ####### ML studio showing the scheduled run:
 
 ![Udacity - ML studio showing the scheduled run](images/909.png?raw=true)
- 
-
 
 
 
