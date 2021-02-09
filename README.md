@@ -17,7 +17,14 @@ Below is a formal visualization of the key steps diagram related to the complete
 
 ![Project-key-steps](images/Project-key-steps.png?raw=true)
 
-- Using Automated ML to determine the best model.
+- Authentication
+- Automating an ML Experiment.
+- Deploying the Best Model
+- Logs Enabling.
+- Documenting Swagger.
+- Consuming model endpoints.
+- Creating and publish a pipeline.
+- Documentation & Screencast.
 
 
 ## Areas of Improvement
