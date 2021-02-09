@@ -234,3 +234,168 @@ N/A
 
 
 
+
+
+### Machine Learning Ops Principles
+
+
+####### Screenshots required with a short description to demonstrate key steps:
+![](images/Role Owner - NO ERROR OR TRACEBACK.png?raw=true)
+ !az ml workspace share -w workspace1st -g dsvm1st --user --- --role owner
+![](images/Udacity no authorization to perform roleAssignmentswrite over scope.png?raw=true)
+![](images/1st-AutoML-001 Role Owner - NO ERROR OR TRACEBACK.png?raw=true)
+ 
+
+
+####### A link to the screencast video on YouTube (or a similar alternative streaming service):
+In case you are unable to provide an audio file, you can include a written description of your script instead of audio, if you prefer. Please include it in your README file.
+
+
+#### Create a professional, portfolio-ready demo of deploying a ML model.
+
+
+##### The screencast should meet the following criteria:
+
+####### Screencast is 1-5 minutes in length, Audio is clear and understandable, Video is 1080P or higher with 16:9 aspect ratio, and text is readable)
+
+
+##### The screencast shows the entire process of the working ML application, including a demonstration of:
+
+####### Working deployed ML model endpoint.
+####### Deployed Pipeline.
+####### Available AutoML Model.
+####### Successful API requests to the endpoint with a JSON payload.
+
+
+
+
+### Deploy model in Azure ML Studio
+
+
+
+#### Create a new AutoML run
+
+
+##### The submission includes screenshots of:
+
+####### “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available:
+
+![](images/1st-AutoML-002 Registered Datasets in ML Studio shows [Bankmarketing] dataset available.png?raw=true)
+ 
+
+ 
+####### The Auto ML experiment is shown as completed:
+
+![](images/Auto ML experiment is shown as completed.png?raw=true)
+ 
+
+
+##### Screeshot of the Auto ML Best Model after experiment completes:
+
+![](images/Auto ML Best Model after experiment completes.png?raw=true)
+ 
+
+
+#### Deploy a model and consume a model endpoint via an HTTP API
+
+
+##### The submission includes screenshots of:
+
+
+####### Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”:
+
+![](images/1st-AutoML-003b Endpoints section in Azure ML Studio, showing that 'Application Insights enabled' says 'true'.png?raw=true)
+ 
+
+####### Logging is enabled by running the provided logs.py script:
+
+![](images/1st-AutoML-004a Logging is enabled by running the provided logs.py script.png?raw=true)
+
+
+![](images/1st-AutoML-004b endpoint and benchmark.png?raw=true)
+ 
+
+
+####### Swagger runs on localhost showing the HTTP API methods and responses for the model:
+
+![](images/1st-AutoML-005x Swagger runs on localhost showing the HTTP API methods and responses for the model.png?raw=true)
+ 
+
+
+####### endpoint.py script runs against the API producing JSON output from the model:
+
+![](images/AutoML - endpoint.py script runs against the API producing JSON output from the model.png?raw=true)
+ 
+
+
+####### [OPTIONAL] Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results:
+
+N/A
+
+
+
+
+### Publish an ML Pipeline
+
+
+#### Create and publish a pipeline
+
+
+##### The submission includes screenshots of:
+
+
+####### The pipeline section of Azure ML studio, showing that the pipeline has been created:
+
+![](images/Udacity - pipeline section of Azure ML studio, showing that the pipeline has been created.png?raw=true)
+
+
+
+####### The Bankmarketing dataset with the AutoML module:
+
+![](images/Udacity Registered Datasets in ML Studio shows Bankmarketing dataset available.png?raw=true)
+ 
+
+
+
+####### The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE:
+
+![](images/Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE.png?raw=true)
+ 
+
+
+
+
+#### Configure a pipeline with the Python SDK
+
+
+
+##### A screenshot of the Jupyter Notebook is included in the submission:
+
+
+####### showing the “Use RunDetails Widget” with the step runs:
+
+![](images/Udacity - Use RunDetails Widget with the step runs.png?raw=true)
+ 
+
+
+#### Use a REST endpoint to interact with a Pipeline
+
+
+##### The submission includes screenshots of:
+
+
+####### ML studio showing the pipeline endpoint as Active:
+ 
+
+####### ML studio showing the scheduled run:
+
+![](images/Udacity - ML studio showing the scheduled run.png?raw=true)
+ 
+
+
+
+
+
+
+
+
