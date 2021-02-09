@@ -47,10 +47,10 @@ Pending standout suggestions that were attempted include:
 
 ## Screencast Recording Documentation
 
-  * **1st MLSecOps Project (C2) Screencast Demo in 5 mins: https://vimeo.com/510089284**
-  * 1st MLSecOps Project (C2) Screencast Demo in 10 mins: https://vimeo.com/510089644
+  * **1st MLSecOps Project (C2) Screencast Demo in 10 mins: https://vimeo.com/510089644/b87c5d0480**
+  * 1st MLSecOps Project (C2) Screencast Demo in 5 mins: https://vimeo.com/510089284/85418699a2
 
-Above recordings' links were for the MLSecOps demo of the entire process of the actionable [production ready] project; , including showcasing of:
+Above recordings' links were for the MLSecOps demo of the entire process of the actionable [production ready] project; including showcasing of:
 1. Working deployed ML model endpoint.
 2. Deployed Pipeline.
 3. Available AutoML Model.
