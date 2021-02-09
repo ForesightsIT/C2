@@ -1,10 +1,5 @@
 
-# 1st MLSecOps Project (C2)
-
-##### 1st MLSecOps [Microsoft Azure Nanodegree ML Engineer] Operationalization Project (ND00333-AZMLND-C2)
-
-
-## Project Overview
+# 1st MLSecOps Project (C2) - High Level Overview
 
 This is a Machine Learning 'operationalization' project [showcasing the know-how by determining deployments targets, enabling foresights, baselining performance metrics, scaning logs and benchmarking], as part of the ML Engineer for Microsoft Azure Nanodegree Program [ND00333-AZMLND-C2] from Udacit (in order to prepare for Microsoft [Designing and Implementing a Data Science Solution on Azure] Exam DP-100).
 
@@ -78,7 +73,18 @@ Pending standout suggestions that were attempted include:
 - Exporting the model for [supportting ONNX](https://docs.microsoft.com/en-us/azure/machine-learning/concept-onnx).
 
 
-# 1st MLSecOps Project (C2)
+# 1st MLSecOps Project (C2) - Low Level Demo
+
+
+## Screen Recording Documentation
+
+Below recordings links are for the MLSecOps demo of the actionable [production ready] project:
+
+- 1st MLSecOps Project (C2) Screencast Demo in 5 mins: https://vimeo.com/510089284
+
+- 1st MLSecOps Project (C2) Screencast Demo in 10 mins: https://vimeo.com/510089644
+
+
 
 ### Required Screenshots:
 Below are breif desribtions along with the required screenshots to demonstrate the completed project [overall end-to-end workflow's] critical stages and/or various main steps:
@@ -187,14 +193,4 @@ N/A
 ###### Udacity - ML studio showing the scheduled run
  
 
-
-
-
-## Screen Recording Documentation
-
-Below recordings links are for the MLSecOps demo of the actionable [production ready] project:
-
-- 1st MLSecOps Project (C2) Screencast Demo in 5 mins: https://vimeo.com/510089284
-
-- 1st MLSecOps Project (C2) Screencast Demo in 10 mins: https://vimeo.com/510089644
 
