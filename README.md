@@ -13,25 +13,26 @@ Though showcasing the know-how by determining deployments targets, enabling fore
 
 ## Architectural Diagram
 
-Below is a formal visualization of the key steps [end-to-end workflow] diagram:
+Below is a formal visualization of the key steps diagram related to the completed project, along with its overall end-to-end workflow's critical stages and/or various main steps (as listed below):
 
 ![Project-key-steps](images/Project-key-steps.png?raw=true)
 
-*TODO*: Provide an architectual diagram of the project and give an introduction of each step. An architectural diagram is an image that helps visualize the flow of operations from start to finish. In this case, it has to be related to the completed project, with its various stages that are critical to the overall flow. For example, one stage for managing models could be "using Automated ML to determine the best model". 
+- Using Automated ML to determine the best model.
+
 
 ## Areas of Improvement
 
 Potential future improvements could be identified as:
 
-Retraining Hyperparameter Tuning with HyperDrive using Bayesian and/or 'Entire Grid' sampling, and AUC as the primary metric (rather than accuracy).
+- Retraining Hyperparameter Tuning with HyperDrive using Bayesian and/or 'Entire Grid' sampling, and AUC as the primary metric (rather than accuracy).
 
-Extending AutoML config to include more parameters.
+- Extending AutoML config to include more parameters.
 
-Documenting XAI and [operationalizing] model [explanation] as a web service, using the [interpretability package] to explain ML models & predictions.
+- Documenting XAI and [operationalizing] model [explanation] as a web service, using the [interpretability package] to explain ML models & predictions.
 
-Exporting Models with ONNX to be deployed to a DLT connected Dapp device.
+- Exporting Models with ONNX to be deployed to a DLT connected Dapp device.
 
-Integrating App Insights with Sentinel and/or CASB.
+- Integrating App Insights with Sentinel and/or CASB.
 
 
 ## Key Steps
