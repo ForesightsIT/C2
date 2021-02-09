@@ -271,7 +271,7 @@ N/A
 
 ##### Screeshot of the Auto ML Best Model after experiment completes:
 
-![Auto ML Best Model after experiment completes](images/Auto ML Best Model after experiment completes.png?raw=true)
+![Auto ML Best Model after experiment completes](images/205.png?raw=true)
  
 
 
@@ -309,7 +309,7 @@ N/A
 
 ####### [OPTIONAL] Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results:
 
-N/A
+![AutoML - Apache Benchmark (ab) runs against the HTTP API using authentication keys](images/707.png?raw=true)
 
 
 
@@ -368,11 +368,8 @@ N/A
 
 ####### ML studio showing the scheduled run:
 
-![Udacity - ML studio showing the scheduled run](images/Udacity - ML studio showing the scheduled run.png?raw=true)
+![Udacity - ML studio showing the scheduled run](images/909.png?raw=true)
  
-
-
-
 
 
 
