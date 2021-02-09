@@ -17,13 +17,13 @@ Below is a formal visualization of the key steps diagram related to the complete
 
 ![Project-key-steps](images/Project-key-steps.png?raw=true)
 
-- Authentication
+- MLSecOps Prepping & Authentication.
 - Automating an ML Experiment.
 - Deploying the Best Model
 - Logs Enabling.
 - Documenting Swagger.
-- Consuming model endpoints.
-- Creating and publish a pipeline.
+- Consuming Model Endpoints.
+- Pipeline Creating and Publishing.
 - Documentation & Screencast.
 
 
@@ -32,13 +32,9 @@ Below is a formal visualization of the key steps diagram related to the complete
 Potential future improvements could be identified as:
 
 - Retraining Hyperparameter Tuning with HyperDrive using Bayesian and/or 'Entire Grid' sampling, and AUC as the primary metric (rather than accuracy).
-
 - Extending AutoML config to include more parameters.
-
 - Documenting XAI and [operationalizing] model [explanation] as a web service, using the [interpretability package] to explain ML models & predictions.
-
 - Exporting Models with ONNX to be deployed to a DLT connected Dapp device.
-
 - Integrating App Insights with Sentinel and/or CASB.
 
 
