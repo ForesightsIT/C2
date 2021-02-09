@@ -27,8 +27,6 @@ Below is the formal diagram related to the visualization of the project's main s
 
 ## Key Steps
 
-Below are breif desribtions along with the required screenshots to demonstrate the completed project [overall end-to-end workflow's] critical stages and/or various main steps:
-
 
 ### MLSecOps Prepping & Authentication:
 
@@ -58,28 +56,37 @@ Below are breif desribtions along with the required screenshots to demonstrate t
 
 
 
+
+## Areas of Improvement
+
+Potential future improvements could be identified as:
+
+- Retraining Hyperparameter Tuning with HyperDrive using Bayesian and/or 'Entire Grid' sampling.
+- Extending AutoML config to include more parameters.
+- Documenting XAI and [operationalizing] model [explanation] as a web service, using the [interpretability package] to explain ML models & predictions.
+- Exporting Models with ONNX to be deployed to a DLT connected Dapp device.
+- Integrating App Insights with Sentinel and/or CASB.
+
+
+
+## [Optional] Standout Suggestions
+
+Pending standout suggestions that were attempted include:
+
+- Completing the optional items about load-testing the endpoint.
+- Using a [Parallel Run Step](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-parallel-run-step) in a pipeline. - Testing a [local container](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-package-models) with a downloaded model.
+- Exporting the model for [supportting ONNX](https://docs.microsoft.com/en-us/azure/machine-learning/concept-onnx).
+
+
+# 1st MLSecOps Project (C2)
+
+### Required Screenshots:
+Below are breif desribtions along with the required screenshots to demonstrate the completed project [overall end-to-end workflow's] critical stages and/or various main steps:
+
+
 ## Machine Learning Ops Principles
 
-### Create detailed documentation in their repository’s README.md file
-#### A README file is included in the project root and has:
-##### An overview of the project:
-Project main steps:
-⦁	Authentication
-⦁	Automated ML Experiment
-⦁	Deploy the best model
-⦁	Enable logging
-⦁	Swagger Documentation
-⦁	Consume model endpoints
-⦁	Create and publish a pipeline
-⦁	Documentation
 
-##### An Architectural Diagram:
- 
-
-
-##### A short description of how to improve the project in the future:
-
-##### Screenshots required with a short description to demonstrate key steps:
 ###### Role Owner - NO ERROR OR TRACEBACK
  !az ml workspace share -w workspace1st -g dsvm1st --user --- --role owner
 ###### Udacity no authorization to perform roleAssignmentswrite over scope
@@ -190,28 +197,4 @@ Below recordings links are for the MLSecOps demo of the actionable [production r
 - 1st MLSecOps Project (C2) Screencast Demo in 5 mins: https://vimeo.com/510089284
 
 - 1st MLSecOps Project (C2) Screencast Demo in 10 mins: https://vimeo.com/510089644
-
-
-
-
-## Areas of Improvement
-
-Potential future improvements could be identified as:
-
-- Retraining Hyperparameter Tuning with HyperDrive using Bayesian and/or 'Entire Grid' sampling.
-- Extending AutoML config to include more parameters.
-- Documenting XAI and [operationalizing] model [explanation] as a web service, using the [interpretability package] to explain ML models & predictions.
-- Exporting Models with ONNX to be deployed to a DLT connected Dapp device.
-- Integrating App Insights with Sentinel and/or CASB.
-
-
-
-## [Optional] Standout Suggestions
-
-Pending standout suggestions that were attempted include:
-
-- Completing the optional items about load-testing the endpoint.
-- Using a [Parallel Run Step](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-use-parallel-run-step) in a pipeline. - Testing a [local container](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-deploy-package-models) with a downloaded model.
-- Exporting the model for [supportting ONNX](https://docs.microsoft.com/en-us/azure/machine-learning/concept-onnx).
-
 
