@@ -76,7 +76,7 @@ Pending standout suggestions that were attempted include:
 # 1st MLSecOps Project (C2) - Low Level Specification
 
 
-## Screen Recording Documentation
+## Screencast Recording Documentation
 
 Below recordings links are for the MLSecOps demo of the actionable [production ready] project:
 
@@ -86,7 +86,7 @@ Below recordings links are for the MLSecOps demo of the actionable [production r
 
 
 
-## Required Screenshots:
+## Required Screenshots' Documentation
 Below are breif describtions along with the required screenshots to demonstrate the completed project [overall end-to-end workflow's] critical stages criteria meeting its various main steps's specifications:
 
 
@@ -119,25 +119,37 @@ In case you are unable to provide an audio file, you can include a written descr
 
 ## Part II: Deploy model in Azure ML Studio
 
+
 ### Create a new AutoML run
+
+
 #### The submission includes screenshots of:
+
 ##### “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available:
 1st-AutoML-002 Registered Datasets in ML Studio shows [Bankmarketing] dataset available
  
 
  
 ##### The Auto ML experiment is shown as completed:
+
 ###### Auto ML experiment is shown as completed
  
 
+
 #### Screeshot of the Auto ML Best Model after experiment completes:
+
 ###### Auto ML Best Model after experiment completes
- 
+
+
 
 ### Deploy a model and consume a model endpoint via an HTTP API
+
+
 #### The submission includes screenshots of:
+
 ##### Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”:
 1st-AutoML-003b Endpoints section in Azure ML Studio, showing that 'Application Insights enabled' says 'true'
+ 
  
 
 ##### Logging is enabled by running the provided logs.py script:
@@ -154,43 +166,70 @@ In case you are unable to provide an audio file, you can include a written descr
 
 
 ##### endpoint.py script runs against the API producing JSON output from the model:
+
 ###### AutoML - endpoint.py script runs against the API producing JSON output from the model
- 
+
+
 
 ##### [OPTIONAL] Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results:
 N/A
 
 
+
+
 ## Part III: Publish an ML Pipeline
 
+
 ### Create and publish a pipeline
+
+
 #### The submission includes screenshots of:
+
+
 ##### The pipeline section of Azure ML studio, showing that the pipeline has been created:
+
 ###### Udacity - pipeline section of Azure ML studio, showing that the pipeline has been created
- 
+
+
 
 ##### The Bankmarketing dataset with the AutoML module:
+
 ###### Udacity Registered Datasets in ML Studio shows Bankmarketing dataset available
  
 
 
-
 ##### The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE:
+
 ###### Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE
  
 
+
+
+
 ### Configure a pipeline with the Python SDK
+
+
 #### A screenshot of the Jupyter Notebook is included in the submission:
+
+
 ##### showing the “Use RunDetails Widget” with the step runs:
+
 ###### Udacity - Use RunDetails Widget with the step runs
  
 
+
 ### Use a REST endpoint to interact with a Pipeline
+
+
 #### The submission includes screenshots of:
+
 ##### ML studio showing the pipeline endpoint as Active:
  
+
 ##### ML studio showing the scheduled run:
+
 ###### Udacity - ML studio showing the scheduled run
- 
+
+
 
 
