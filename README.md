@@ -22,33 +22,32 @@ Below is the formal diagram related to the visualization of the project's main s
 
 ## Key Steps
 
-
 ### MLSecOps Prepping & Authentication:
-
-
+Mainly creating a Service Principal account and associating it with a specific workspace.
 
 ### Automating an ML Experiment:
-
+Creating an experiment using Automated ML, configuring a compute cluster, and using it to run an experiment.
 
 
 ### Deploying the Best Model:
-
+Deploying the AutoML run's Best Model for interacting with the HTTP API service and or the model [over POST requests].
 
 
 ### Logs Enabling:
-
+Retrieving logs by enabling Application Insights at deploy time [with a check-box, or later by runing a code].
 
 
 ### Documenting Swagger:
-
+Consuming the deployed model using the [OpenAPI] Swagger JSON file to interact with the trained model.
 
 
 ### Consuming Model Endpoints:
+Consuming the deployed model using the endpoint's scoring_uri and its key that was generated post deployment.
 
 
 
 ### Pipeline Creating and Publishing:
-
+Updating a Jupyter Notebook with already created [same AutoMl's] keys, URI, dataset, cluster, and model names.
 
 
 
@@ -78,12 +77,14 @@ Pending standout suggestions that were attempted include:
 
 ## Screencast Recording Documentation
 
-Below recordings links are for the MLSecOps demo of the actionable [production ready] project:
-
 - 1st MLSecOps Project (C2) Screencast Demo in 5 mins: https://vimeo.com/510089284
-
 - 1st MLSecOps Project (C2) Screencast Demo in 10 mins: https://vimeo.com/510089644
 
+Above recordings' links were for the MLSecOps demo of the entire process of the actionable [production ready] project; , including showcasing of:
+- Working deployed ML model endpoint.
+- Deployed Pipeline.
+- Available AutoML Model.
+- Successful API requests to the endpoint with a JSON payload.
 
 
 ## Required Screenshots' Documentation
