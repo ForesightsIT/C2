@@ -17,7 +17,7 @@ Rather than the usual "VotingEnsemble", the best performing model was an Azure A
 
 Below is the formal diagram related to the visualization of the project's main steps (as listed in the next section):
 
-![Project-key-steps](images/111.png?raw=true)
+![Project-key-steps](images/999.png?raw=true)
 
 
 ## Key Steps
@@ -88,7 +88,7 @@ Above recordings' links were for the MLSecOps demo of the entire process of the 
 
 
 ## Required Screenshots' Documentation
-Below are breif describtions along with the required screenshots to demonstrate the completed project [overall end-to-end workflow's] critical stages criteria meeting its various main steps's specifications:
+Below are the required screenshots to demonstrate [along with the above screencasts and describtions] the completed project [overall end-to-end workflow's] critical stages criteria meeting its various main steps's specifications:
 
 
 
