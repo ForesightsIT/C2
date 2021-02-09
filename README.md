@@ -1,12 +1,13 @@
 
 # 1st MLSecOps Project (C2)
 
-### 1st MLSecOps [Microsoft Azure Nanodegree ML Engineer] Operationalization Project (ND00333-AZMLND-C2)
+##### 1st MLSecOps [Microsoft Azure Nanodegree ML Engineer] Operationalization Project (ND00333-AZMLND-C2)
 
 
 ## Project Overview
 
 This is a Machine Learning 'operationalization' project, part of the ML Engineer for Microsoft Azure Nanodegree Program [ND00333-AZMLND-C2] from Udacit (in order to prepare for Microsoft [Designing and Implementing a Data Science Solution on Azure] Exam DP-100).
+
 The business goal is inferencing foresights for a binary classification of the Bank [Direct] Marketing dataset [predicting if the product (term deposit) would be (or not) subscribed]; by using Azure AutoML to train an ML model before its best model's OpenAPI endpoint gets deployed for production-ready consumption; showcasing the know-how by determining deployments targets, enabling foresights, baselining performance metrics, scaning logs and  benchmarking.
 
 
