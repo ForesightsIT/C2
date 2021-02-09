@@ -17,7 +17,7 @@ Rather than the usual "VotingEnsemble", the best performing model was an Azure A
 
 Below is the formal diagram related to the visualization of the project's main steps (as listed in the next section):
 
-![](images/Project-key-steps.png?raw=true)
+![Project-key-steps](images/Project-key-steps.png?raw=true)
 
 
 ## Key Steps
