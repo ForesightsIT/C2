@@ -60,7 +60,7 @@ Below are breif desribtions along with the required screenshots to demonstrate t
 
 ### Documentation [& Screencast Recording]:
 
-Below screen recording's link is for the MLSecOps demo of the actionable [production ready] project:
+Below recordings links are for the MLSecOps demo of the actionable [production ready] project:
 
 - 1st MLSecOps Project (C2) Screencast Demo in 5 mins: https://vimeo.com/510089284
 
@@ -73,7 +73,7 @@ Below screen recording's link is for the MLSecOps demo of the actionable [produc
 
 Potential future improvements could be identified as:
 
-- Retraining Hyperparameter Tuning with HyperDrive using Bayesian and/or 'Entire Grid' sampling, and AUC as the primary metric (rather than accuracy).
+- Retraining Hyperparameter Tuning with HyperDrive using Bayesian and/or 'Entire Grid' sampling.
 - Extending AutoML config to include more parameters.
 - Documenting XAI and [operationalizing] model [explanation] as a web service, using the [interpretability package] to explain ML models & predictions.
 - Exporting Models with ONNX to be deployed to a DLT connected Dapp device.
