@@ -179,13 +179,14 @@ Updating a Jupyter Notebook with already created [same AutoMl's] keys, URI, data
 
 - The Bankmarketing dataset with the AutoML module:
 
-![Udacity Registered Datasets in ML Studio shows Bankmarketing dataset available](images/808.png?raw=true)
+![Udacity Registered Datasets in ML Studio shows Bankmarketing dataset available](images/818.png?raw=true)
  Registered Datasets in ML Studio shows [Bankmarketing] dataset available
 
 
 
 - The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE:
- 
+
+![Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE](images/868.png?raw=true)
 ![Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE](images/878.png?raw=true)
 ![Udacity - Notebook, showing a REST endpoint and a status of ACTIVE](images/888.png?raw=true)
 
