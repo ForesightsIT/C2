@@ -1,7 +1,7 @@
 
 # 1st MLSecOps Project (C2) - High Level Overview
 
-This is a Machine Learning 'operationalization' project [showcasing the know-how by determining deployments targets, enabling foresights, baselining performance metrics, scaning logs and benchmarking], as part of the ML Engineer for Microsoft Azure Nanodegree Program [ND00333-AZMLND-C2] from Udacit (in order to prepare for Microsoft [Designing and Implementing a Data Science Solution on Azure] Exam DP-100).
+This is a Machine Learning 'operationalization' project [showcasing the know-how by determining deployments targets, enabling foresights, baselining performance metrics, scaning logs and benchmarking], which was part of the ML Engineer for Microsoft Azure Nanodegree Scholarship (preparing for Microsoft [Designing and Implementing a Data Science Solution on Azure] Exam DP-100).
 
 
 ### The Problem Statement:
