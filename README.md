@@ -185,10 +185,9 @@ Updating a Jupyter Notebook with already created [same AutoMl's] keys, URI, data
 
 
 - The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE:
-
-![Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE](images/888.png?raw=true)
  
-
+![Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE](images/878.png?raw=true)
+![Udacity - Notebook, showing a REST endpoint and a status of ACTIVE](images/888.png?raw=true)
 
 
 ### Configure a pipeline with the Python SDK
