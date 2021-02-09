@@ -17,7 +17,7 @@ Rather than the usual "VotingEnsemble", the best performing model was an Azure A
 
 Below is the formal diagram related to the visualization of the project's main steps (as listed in the next section):
 
-![Project-key-steps](images/Project-key-steps.png?raw=true)
+![Project-key-steps](images/111.png?raw=true)
 
 
 ## Key Steps
@@ -91,31 +91,16 @@ Above recordings' links were for the MLSecOps demo of the entire process of the 
 Below are breif describtions along with the required screenshots to demonstrate the completed project [overall end-to-end workflow's] critical stages criteria meeting its various main steps's specifications:
 
 
+
 ## Part I: Machine Learning Ops Principles
 
-
-###### Role Owner - NO ERROR OR TRACEBACK
+##### Role Owner authorization to perform roleAssignmentswrite over scope - NO ERROR OR TRACEBACK
  !az ml workspace share -w workspace1st -g dsvm1st --user --- --role owner
-###### Udacity no authorization to perform roleAssignmentswrite over scope
-1st-AutoML-001 Role Owner - NO ERROR OR TRACEBACK
- 
+![1st-AutoML-001 Role Owner - NO ERROR OR TRACEBACK - local](images/101.png?raw=true)
+![1st-AutoML-001 Role Owner - NO ERROR OR TRACEBACK @ already exists](images/102.png?raw=true)
+Udacity no authorization to perform roleAssignmentswrite over scope
+![Udacity no authorization to perform roleAssignmentswrite over scope](images/107.png?raw=true)
 
- 
- 
- 
-
-
-##### A link to the screencast video on YouTube (or a similar alternative streaming service):
-In case you are unable to provide an audio file, you can include a written description of your script instead of audio, if you prefer. Please include it in your README file.
-
-### Create a professional, portfolio-ready demo of deploying a ML model.
-#### The screencast should meet the following criteria:
-##### Screencast is 1-5 minutes in length, Audio is clear and understandable, Video is 1080P or higher with 16:9 aspect ratio, and text is readable)
-#### The screencast shows the entire process of the working ML application, including a demonstration of:
-##### Working deployed ML model endpoint.
-##### Deployed Pipeline.
-##### Available AutoML Model.
-##### Successful API requests to the endpoint with a JSON payload.
 
 
 ## Part II: Deploy model in Azure ML Studio
@@ -126,21 +111,22 @@ In case you are unable to provide an audio file, you can include a written descr
 
 #### The submission includes screenshots of:
 
-##### “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available:
-1st-AutoML-002 Registered Datasets in ML Studio shows [Bankmarketing] dataset available
+- “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available:
+
+![1st-AutoML-002 Registered Datasets in ML Studio shows [Bankmarketing] dataset available](images/201.png?raw=true)
  
 
  
-##### The Auto ML experiment is shown as completed:
+- The Auto ML experiment is shown as completed:
 
-###### Auto ML experiment is shown as completed
- 
+![Auto ML experiment is shown as completed](images/203.png?raw=true)
+
 
 
 #### Screeshot of the Auto ML Best Model after experiment completes:
 
-###### Auto ML Best Model after experiment completes
-
+![Auto ML Best Model after experiment completes](images/205.png?raw=true)
+ 
 
 
 ### Deploy a model and consume a model endpoint via an HTTP API
@@ -148,32 +134,32 @@ In case you are unable to provide an audio file, you can include a written descr
 
 #### The submission includes screenshots of:
 
-##### Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”:
-1st-AutoML-003b Endpoints section in Azure ML Studio, showing that 'Application Insights enabled' says 'true'
- 
- 
 
-##### Logging is enabled by running the provided logs.py script:
-1st-AutoML-004a Logging is enabled by running the provided logs.py script
+- Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”:
+
+![1st-AutoML-003b Endpoints section in Azure ML Studio, showing that 'Application Insights enabled' says 'true'](images/301.png?raw=true)
  
 
-1st-AutoML-004b endpoint and benchmark
- 
+- Logging is enabled by running the provided logs.py script:
 
+![1st-AutoML-004a Logging is enabled by running the provided logs.py script](images/303.png?raw=true)
 
-##### Swagger runs on localhost showing the HTTP API methods and responses for the model:
-1st-AutoML-005x Swagger runs on localhost showing the HTTP API methods and responses for the model
  
 
 
-##### endpoint.py script runs against the API producing JSON output from the model:
+- Swagger runs on localhost showing the HTTP API methods and responses for the model:
 
-###### AutoML - endpoint.py script runs against the API producing JSON output from the model
+![1st-AutoML-005x Swagger runs on localhost showing the HTTP API methods and responses for the model](images/401.png?raw=true)
+ 
 
 
+- endpoint.py script runs against the API producing JSON output from the model:
+ 
+![1st-AutoML-004b endpoint and benchmark](images/305.png?raw=true)
 
-##### [OPTIONAL] Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results:
-N/A
+- [OPTIONAL] Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results:
+
+![AutoML - Apache Benchmark (ab) runs against the HTTP API using authentication keys](images/707.png?raw=true)
 
 
 
@@ -187,21 +173,22 @@ N/A
 #### The submission includes screenshots of:
 
 
-##### The pipeline section of Azure ML studio, showing that the pipeline has been created:
+- The pipeline section of Azure ML studio, showing that the pipeline has been created:
 
-###### Udacity - pipeline section of Azure ML studio, showing that the pipeline has been created
-
-
-
-##### The Bankmarketing dataset with the AutoML module:
-
-###### Udacity Registered Datasets in ML Studio shows Bankmarketing dataset available
- 
+![Udacity - pipeline section of Azure ML studio, showing that the pipeline has been created](images/801.png?raw=true)
 
 
-##### The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE:
 
-###### Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE
+- The Bankmarketing dataset with the AutoML module:
+
+![Udacity Registered Datasets in ML Studio shows Bankmarketing dataset available](images/808.png?raw=true)
+ Registered Datasets in ML Studio shows [Bankmarketing] dataset available
+
+
+
+- The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE:
+
+![Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE](images/888.png?raw=true)
  
 
 
@@ -210,12 +197,13 @@ N/A
 ### Configure a pipeline with the Python SDK
 
 
+
 #### A screenshot of the Jupyter Notebook is included in the submission:
 
 
-##### showing the “Use RunDetails Widget” with the step runs:
+- showing the “Use RunDetails Widget” with the step runs:
 
-###### Udacity - Use RunDetails Widget with the step runs
+![Udacity - Use RunDetails Widget with the step runs](images/898.png?raw=true)
  
 
 
@@ -224,153 +212,15 @@ N/A
 
 #### The submission includes screenshots of:
 
-##### ML studio showing the pipeline endpoint as Active:
- 
 
-##### ML studio showing the scheduled run:
-
-###### Udacity - ML studio showing the scheduled run
-
-
-
-
-
-
-
-
-### Machine Learning Ops Principles
-
-###### Role Owner authorization to perform roleAssignmentswrite over scope - NO ERROR OR TRACEBACK
- !az ml workspace share -w workspace1st -g dsvm1st --user --- --role owner
-![1st-AutoML-001 Role Owner - NO ERROR OR TRACEBACK - local](images/101.png?raw=true)
-![1st-AutoML-001 Role Owner - NO ERROR OR TRACEBACK @ already exists](images/102.png?raw=true)
-Udacity no authorization to perform roleAssignmentswrite over scope
-![Udacity no authorization to perform roleAssignmentswrite over scope](images/107.png?raw=true)
-
-
-
-### Deploy model in Azure ML Studio
-
-
-
-#### Create a new AutoML run
-
-
-##### The submission includes screenshots of:
-
-####### “Registered Datasets” in ML Studio shows "Bankmarketing" dataset available:
-
-![1st-AutoML-002 Registered Datasets in ML Studio shows [Bankmarketing] dataset available](images/201.png?raw=true)
- 
-
- 
-####### The Auto ML experiment is shown as completed:
-
-![Auto ML experiment is shown as completed](images/203.png?raw=true)
-
-
-
-##### Screeshot of the Auto ML Best Model after experiment completes:
-
-![Auto ML Best Model after experiment completes](images/205.png?raw=true)
- 
-
-
-#### Deploy a model and consume a model endpoint via an HTTP API
-
-
-##### The submission includes screenshots of:
-
-
-####### Endpoints section in Azure ML Studio, showing that “Application Insights enabled” says “true”:
-
-![1st-AutoML-003b Endpoints section in Azure ML Studio, showing that 'Application Insights enabled' says 'true'](images/301.png?raw=true)
- 
-
-####### Logging is enabled by running the provided logs.py script:
-
-![1st-AutoML-004a Logging is enabled by running the provided logs.py script](images/303.png?raw=true)
-
-
-![1st-AutoML-004b endpoint and benchmark](images/305.png?raw=true)
- 
-
-
-####### Swagger runs on localhost showing the HTTP API methods and responses for the model:
-
-![1st-AutoML-005x Swagger runs on localhost showing the HTTP API methods and responses for the model](images/401.png?raw=true)
- 
-
-
-####### endpoint.py script runs against the API producing JSON output from the model:
-
-![AutoML - endpoint.py script runs against the API producing JSON output from the model](images/405.png?raw=true)
- 
-
-
-####### [OPTIONAL] Apache Benchmark (ab) runs against the HTTP API using authentication keys to retrieve performance results:
-
-![AutoML - Apache Benchmark (ab) runs against the HTTP API using authentication keys](images/707.png?raw=true)
-
-
-
-
-### Publish an ML Pipeline
-
-
-#### Create and publish a pipeline
-
-
-##### The submission includes screenshots of:
-
-
-####### The pipeline section of Azure ML studio, showing that the pipeline has been created:
-
-![Udacity - pipeline section of Azure ML studio, showing that the pipeline has been created](images/801.png?raw=true)
-
-
-
-####### The Bankmarketing dataset with the AutoML module:
-
-![Udacity Registered Datasets in ML Studio shows Bankmarketing dataset available](images/808.png?raw=true)
- Registered Datasets in ML Studio shows [Bankmarketing] dataset available
-
-
-
-####### The “Published Pipeline overview”, showing a REST endpoint and a status of ACTIVE:
-
-![Udacity - Published Pipeline overview, showing a REST endpoint and a status of ACTIVE](images/888.png?raw=true)
- 
-
-
-
-
-#### Configure a pipeline with the Python SDK
-
-
-
-##### A screenshot of the Jupyter Notebook is included in the submission:
-
-
-####### showing the “Use RunDetails Widget” with the step runs:
-
-![Udacity - Use RunDetails Widget with the step runs](images/Udacity - Use RunDetails Widget with the step runs.png?raw=true)
- 
-
-
-#### Use a REST endpoint to interact with a Pipeline
-
-
-##### The submission includes screenshots of:
-
-
-####### ML studio showing the pipeline endpoint as Active:
+- ML studio showing the pipeline endpoint as Active:
 ![ML studio showing the pipeline endpoint as Active](images/907.png?raw=true)
  
 
-####### ML studio showing the scheduled run:
+- ML studio showing the scheduled run:
 
 ![Udacity - ML studio showing the scheduled run](images/909.png?raw=true)
+ 
 
 
 
