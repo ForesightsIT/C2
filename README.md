@@ -73,7 +73,7 @@ Pending standout suggestions that were attempted include:
 - Exporting the model for [supportting ONNX](https://docs.microsoft.com/en-us/azure/machine-learning/concept-onnx).
 
 
-# 1st MLSecOps Project (C2) - Low Level Demo
+# 1st MLSecOps Project (C2) - Low Level Specification
 
 
 ## Screen Recording Documentation
@@ -86,11 +86,11 @@ Below recordings links are for the MLSecOps demo of the actionable [production r
 
 
 
-### Required Screenshots:
-Below are breif desribtions along with the required screenshots to demonstrate the completed project [overall end-to-end workflow's] critical stages and/or various main steps:
+## Required Screenshots:
+Below are breif describtions along with the required screenshots to demonstrate the completed project [overall end-to-end workflow's] critical stages criteria meeting its various main steps's specifications:
 
 
-## Machine Learning Ops Principles
+## Part I: Machine Learning Ops Principles
 
 
 ###### Role Owner - NO ERROR OR TRACEBACK
@@ -117,7 +117,7 @@ In case you are unable to provide an audio file, you can include a written descr
 ##### Successful API requests to the endpoint with a JSON payload.
 
 
-## Deploy model in Azure ML Studio
+## Part II: Deploy model in Azure ML Studio
 
 ### Create a new AutoML run
 #### The submission includes screenshots of:
@@ -161,7 +161,7 @@ In case you are unable to provide an audio file, you can include a written descr
 N/A
 
 
-## Publish an ML Pipeline
+## Part III: Publish an ML Pipeline
 
 ### Create and publish a pipeline
 #### The submission includes screenshots of:
